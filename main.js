@@ -96,3 +96,101 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+// let number1 = +prompt('Введите число от');
+// let number2 = +prompt('Введите число до');
+// let sum = 0
+// for (i = number1; i <= number2; i++){
+//     sum +=i;
+// }
+// console.log (sum)
+
+
+// let number1 = +prompt('Введите');
+// let number2 = +prompt('Введите');
+// for (i=number1; ;i-- ){
+//     if (number1 % i == 0 && number2 % i ==0){
+//         console.log (i)
+//         break;
+//     }
+// }
+
+
+// let number = +prompt('Введите число');
+// for (i = 1; i <= number; i++){
+//     if (number % i == 0){
+//         console.log (i)
+//     }
+// }
+
+
+// let number = +prompt('Введите');
+// let count = 0;
+// while (number > 0) {
+//     count++
+//     number = Math.floor(number / 10)
+// }
+// console.log(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function getValue (a, b) {
+//     if (a < b){
+//         return -1
+//     } else if(a > b){
+//         return 1
+//     }else{
+//        return 0
+//     }
+// }
+// console.log(getValue(3, 2))
+
+
+// function calcFactorial (num){
+//     let factorial = 1;
+//     for (i = 1; i <= num; i++){
+//        factorial *= i;
+//     }
+//     return factorial
+// }
+// console.log(calcFactorial(4))
+
+
+
+// function aad (num1, num2, num3){
+//     return (num1 + "" + num2 + "" + num3 + "")
+// }
+// console.log(aad(1, 2, 3))
+
+
+
+// function calcSquare (length, width){
+//     if (width == undefined){
+//         return length**2
+//     }else{
+//         return length * width
+//     }
+// }
+
+// console.log(calcSquare(2))
+// console.log(calcSquare(2, 4))
