@@ -39,7 +39,6 @@
 //         break;
 // }
 
-
 // let symbol = +prompt('Введите число');
 // switch(symbol) {
 //     case 0 :
@@ -86,7 +85,6 @@
 //     alert('Все разные')
 // }
 
-
 // let year = +prompt('Введите год');
 // if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0){
 //     alert('Високосный')
@@ -114,7 +112,6 @@
 // }
 // console.log (sum)
 
-
 // let number1 = +prompt('Введите');
 // let number2 = +prompt('Введите');
 // for (i=number1; ;i-- ){
@@ -124,14 +121,12 @@
 //     }
 // }
 
-
 // let number = +prompt('Введите число');
 // for (i = 1; i <= number; i++){
 //     if (number % i == 0){
 //         console.log (i)
 //     }
 // }
-
 
 // let number = +prompt('Введите');
 // let count = 0;
@@ -165,7 +160,6 @@
 // }
 // console.log(getValue(3, 2))
 
-
 // function calcFactorial (num){
 //     let factorial = 1;
 //     for (i = 1; i <= num; i++){
@@ -175,14 +169,10 @@
 // }
 // console.log(calcFactorial(4))
 
-
-
 // function aad (num1, num2, num3){
 //     return (num1 + "" + num2 + "" + num3 + "")
 // }
 // console.log(aad(1, 2, 3))
-
-
 
 // function calcSquare (length, width){
 //     if (width == undefined){
@@ -191,9 +181,9 @@
 //         return length * width
 //     }
 // }
-
 // console.log(calcSquare(2))
 // console.log(calcSquare(2, 4))
+
 
 
 
@@ -237,11 +227,13 @@
 
 
 
+
 // const queue = ['Иван', 'Мария', 'Петр'];
 // queue.push('Анна');
 // queue.shift();
 // queue.unshift('Олег');
 // console.log (queue);
+
 
 
 // const callStack = [];
