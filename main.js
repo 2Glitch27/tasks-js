@@ -194,3 +194,73 @@
 
 // console.log(calcSquare(2))
 // console.log(calcSquare(2, 4))
+
+
+
+
+
+
+
+// const car = {
+//     barnd : 'krutaya',
+//     model : 'tachka',
+//     year : 23,
+// }
+
+// console.log (`У меня есть ${car.barnd} ${car.model} ${car.year} года выпуска`)
+
+// const product = {
+//     name : 'Футболка',
+//     price : 1500,
+//     quantity : 10,
+// }
+// product.totalPrice = product.price * product.quantity
+// console.log (product)
+
+// const rectangle = {
+//     widtg : 10,
+//     height : 15,
+// }
+// rectangle.area = rectangle.widtg * rectangle.height
+// console.log(rectangle)
+
+// const item = {
+//     price : 200,
+//     discount : 20,
+
+// }
+// item.finalPrice = item.price - (item.price * item.discount / 100)
+// console.log(item.finalPrice)
+
+
+
+
+
+
+// const queue = ['Иван', 'Мария', 'Петр'];
+// queue.push('Анна');
+// queue.shift();
+// queue.unshift('Олег');
+// console.log (queue);
+
+
+// const callStack = [];
+
+
+
+
+// const busStop = ['Анна', 'Борис'];
+// busStop.push('Виктор', 'Галина');
+// busStop.shift();
+// busStop.length = 0;
+// console.log (busStop);
+// console.log ('Автобус уехал. Пассажиров: 0');
+
+// const shoppingList = ['хлеб', 'молоко'];
+// shoppingList.push('яйца');
+// shoppingList.unshift('масло');
+// shoppingList.pop();
+// shoppingList.shift();
+// console.log(shoppingList)
+
+
