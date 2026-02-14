@@ -237,7 +237,16 @@
 
 
 // const callStack = [];
-
+// function login (){
+//     validate();
+// };
+// function validate(){
+//     save();
+// };
+// function  save (){
+//    console.trace();
+// };
+// login();
 
 
 
