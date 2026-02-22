@@ -265,3 +265,36 @@
 // console.log(shoppingList)
 
 
+
+
+
+
+// function biggestNumber (num){
+//     if (num < 10){
+//         return num
+//     }
+//     let lastNum = num % 10;
+//     let ostNum = Math.floor(num/10);
+//     let maxNum = nod (ostNum)
+//     return maxNum > lastNum ? maxNum : lastNum
+// }
+// console.log(nod(256))
+// console.log(nod(971))
+
+
+// function nod (num, b = num){
+//     if (b === 2){
+//         return true
+//     }
+//     if (num % (b - 1) !== 0){
+//         return nod (num, b - 1)
+//     } return false
+// }
+
+
+// function nod (a, b){ 
+//     if (a % b === 0){ 
+//     return b 
+//     } 
+//     return nod (b, a % b)
+// }
