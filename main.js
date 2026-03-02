@@ -298,3 +298,140 @@
 //     } 
 //     return nod (b, a % b)
 // }
+
+
+
+
+
+
+// let car1 = {
+//   manufacturer : 'Porsche AG',
+//   model : 'Porsche 911 Turbo',
+//   year : 1975,
+//   averageSpeed : 80,
+//   information (){
+//     return `${this.model} from the manufacturer ${this.manufacturer} ${this.year} year. Has average speed ${this.averageSpeed}`
+//   },
+//   calculateTime(distance){
+//     let time = Math.round(distance / this.averageSpeed);
+//     console.log(time)
+//     if (time < 4){
+//       return time
+//     }else {
+//       return time + (Math.floor(time/4))
+//     }
+//   }
+
+// }
+
+// let car2 = {
+//   information(model, manufacturer, year, averageSpeed){
+//     return `${model} from the manufacturer ${manufacturer} ${year} year. Has average speed ${averageSpeed}`
+//   },
+//   calculateTime(distance, averageSpeed){
+//     let time = Math.round(distance / averageSpeed);
+//     console.log(time)
+//     if (time < 4){
+//       return time
+//     }else {
+//       return time + (Math.floor(time/4))
+//     }
+//   }
+// }
+
+
+
+// let fractionCalculator = {
+//   sumFractions(n1, d1, n2, d2){
+//     if (d1 === d2){
+//       return `${n1 + n2} / ${d1}`
+//     }
+//     let x1 = n1 * d2;
+//     let x2 = n2 * d1;
+//     let s1 = x1 + x2;
+//     let s2 = d1 * d2;
+//     return `${s1}/${s2}`
+//   },
+
+//   subtractionFractions(n1, d1, n2, d2){
+//     if (d1 === d2){
+//       return n1 - n2 + '/' + d1
+//     }
+//     let x1 = n1 * d2;
+//     let x2 = n2 * d1;
+//     let s1 = x1 - x2;
+//     let s2 = d1 * d2;
+//     return `${s1}/${s2}`
+//   },
+
+//   multiplicationFractions(n1, d1, n2, d2){
+//     return `${n1 * n2}/${d1 * d2}`
+//   },
+
+//   divisionFractions(n1, d1, n2, d2){
+//     return `${n1 * d2}/${d1 * n2}`
+//   },
+
+//   nodFractions(n, d){
+//     let more = d ;
+//     let less = n;
+//     if (n > d){
+//       more = n;
+//       less = d
+//     }
+//     let nod = 1;
+//     for (i = less; i > 1; i--){
+//       if (more % i === 0 && less % i === 0){
+//         nod = i;
+//       }
+//     }
+//     if (d / nod === 1){
+//       return `${n / nod}`
+//     }
+//     return `${n / nod}/${d / nod}`
+//   }
+// }
+
+
+
+// let time = {
+//   hours : Math.floor(Math.random() * (24 - 1) + 1),
+//   minutes :  Math.floor(Math.random() * (60 - 1) + 1),
+//   seconds: Math.floor(Math.random() * (60 - 1) + 1),
+
+//   getTime (){
+//     return `${this.hours}.${this.minutes}.${this.seconds}`
+//   },
+
+//   increaseHours(h){
+//     sum = this.hours + h
+//     if (sum >= 24){
+//       sum %= 24
+//     }
+//     return `${sum}.${this.minutes}.${this.seconds}`;
+//   },
+//     increaseMinutes(m){
+//     sum = this.minutes + m
+//     h = this.hours;
+//     if (sum >= 60){
+//       h += Math.floor(sum / 60); 
+//       sum %= 60;
+//     }
+//     return `${h}.${sum}.${this.seconds}`;
+//   },
+//     increaseSeconds(s){
+//     h = this.hours;
+//     m = this.minutes;
+//     sum = this.seconds + s
+//     if (sum >= 60){
+//     m += Math.floor(sum / 60) ; 
+//     sum %= 60;
+//     }
+//     if(m >= 60){
+//       h += Math.floor(m / 60) ; 
+//       m %= 60;
+//     }
+//     return `${h}.${m}.${sum}`;
+//   },
+
+// }
