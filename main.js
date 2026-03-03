@@ -346,9 +346,7 @@
 //     if (d1 === d2){
 //       return `${n1 + n2} / ${d1}`
 //     }
-//     let x1 = n1 * d2;
-//     let x2 = n2 * d1;
-//     let s1 = x1 + x2;
+//     let s1 = (n1 * d2) + (n2 * d1);
 //     let s2 = d1 * d2;
 //     return `${s1}/${s2}`
 //   },
@@ -357,9 +355,7 @@
 //     if (d1 === d2){
 //       return n1 - n2 + '/' + d1
 //     }
-//     let x1 = n1 * d2;
-//     let x2 = n2 * d1;
-//     let s1 = x1 - x2;
+//     let s1 = (n1 * d2) + (n2 * d1);
 //     let s2 = d1 * d2;
 //     return `${s1}/${s2}`
 //   },
@@ -391,6 +387,7 @@
 //     return `${n / nod}/${d / nod}`
 //   }
 // }
+
 
 
 
