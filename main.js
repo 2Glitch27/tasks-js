@@ -438,33 +438,47 @@
 
 
 
-const time = document.querySelector('.time');
-time.style.fontSize = '200px';
-time.style.margin = '300px 450px';
+// const time = document.querySelector('.time');
+// time.style.fontSize = '200px';
+// time.style.margin = '300px 450px';
 
 
-class Timer {
-    start = new Date()
-    finish = new Date('2026-06-01')
+// class Timer {
+//     start = new Date()
+//     finish = new Date('2026-06-01')
 
-    constructor(){}
+//     constructor(){}
 
-    getTime(){
-        let difference = (this.finish - this.start)
-        let hours = (Math.floor(difference / (1000 * 60 * 60))) - 3
-        let minutes = Math.floor((difference % (1000 * 60 * 60 )) / (1000 * 60 ));
-        let seconds = Math.floor((difference % (1000 * 60 )) / (1000) );
-        return time.innerHTML =`${hours}:${minutes}:${seconds}`
-    }
+//     getTime(){
+//         let difference = (this.finish - this.start)
+//         let hours = (Math.floor(difference / (1000 * 60 * 60))) - 3
+//         let minutes = Math.floor((difference % (1000 * 60 * 60 )) / (1000 * 60 ));
+//         let seconds = Math.floor((difference % (1000 * 60 )) / (1000) );
+//         return time.innerHTML =`${hours}:${minutes}:${seconds}`
+//     }
     
-}
+// }
 
-setInterval(() => {
-    const timer = new Timer
-    timer.getTime()
-}, 1000);
-
-
+// setInterval(() => {
+//     const timer = new Timer
+//     timer.getTime()
+// }, 1000);
 
 
 
+const btn = document.querySelector('.btn')
+const input = document.querySelector('input')
+const toDo = document.querySelector ('.to-do__list')
+
+btn.addEventListener('click', () => {
+    const newLi = document.createElement('li');
+    newLi.innerHTML = `${input.value} <button class='delete'>x</button>`
+    toDo.appendChild(newLi);
+})
+
+
+toDo.addEventListener('click', (e) =>{ 
+ if(e.target.classList.contains('delete')){
+     e.target.closest('li').remove();
+ }
+ })
