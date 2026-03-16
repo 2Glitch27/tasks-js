@@ -466,22 +466,22 @@
 
 
 
-// const btn = document.querySelector('.btn')
-// const input = document.querySelector('input')
-// const toDo = document.querySelector ('.to-do__list')
+const btn = document.querySelector('.btn')
+const input = document.querySelector('input')
+const toDo = document.querySelector ('.to-do__list')
 
-// btn.addEventListener('click', () => {
-//     const newLi = document.createElement('li');
-//     newLi.innerHTML = `${input.value} <button class='delete'>x</button>`
-//     toDo.appendChild(newLi);
-// })
+btn.addEventListener('click', () => {
+    const newLi = document.createElement('li');
+    newLi.innerHTML = `${input.value} <button class='delete'>x</button>`
+    toDo.appendChild(newLi);
+})
 
 
-// toDo.addEventListener('click', (e) =>{ 
-//  if(e.target.classList.contains('delete')){
-//      e.target.closest('li').remove();
-//  }
-//  })
+toDo.addEventListener('click', (e) =>{ 
+ if(e.target.classList.contains('delete')){
+     e.target.closest('li').remove();
+ }
+ })
 
 
 
