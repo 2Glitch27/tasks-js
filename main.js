@@ -466,19 +466,91 @@
 
 
 
-const btn = document.querySelector('.btn')
-const input = document.querySelector('input')
-const toDo = document.querySelector ('.to-do__list')
+// const btn = document.querySelector('.btn')
+// const input = document.querySelector('input')
+// const toDo = document.querySelector ('.to-do__list')
 
-btn.addEventListener('click', () => {
-    const newLi = document.createElement('li');
-    newLi.innerHTML = `${input.value} <button class='delete'>x</button>`
-    toDo.appendChild(newLi);
-})
+// btn.addEventListener('click', () => {
+//     const newLi = document.createElement('li');
+//     newLi.innerHTML = `${input.value} <button class='delete'>x</button>`
+//     toDo.appendChild(newLi);
+// })
 
 
-toDo.addEventListener('click', (e) =>{ 
- if(e.target.classList.contains('delete')){
-     e.target.closest('li').remove();
- }
- })
+// toDo.addEventListener('click', (e) =>{ 
+//  if(e.target.classList.contains('delete')){
+//      e.target.closest('li').remove();
+//  }
+//  })
+
+
+
+
+// function splitEvenOdd(arr){
+//     let start = [];
+//     let end = [];
+//     for (item of arr){
+//         if (item % 2 === 0){
+//             start.push(item);
+//         }end.push(item)
+//     }
+    
+//     return start.concat(end)
+// }
+
+
+
+// function averageOfArray(arr){
+//     let average = 0
+//      arr.forEach(item => {
+//         average +=item
+//     });
+//     return average / arr.length
+    
+// }
+
+
+
+// function censorWord (str, word){
+//     let m = str.split(' ')
+//     m.forEach((item, index) => {
+//         if(item === word){
+//             m[index] = '[цензура]'
+//         }
+//     })
+//     return m.join(' ')
+// }
+
+
+
+// function addToCart (cart, productNume, amount){
+// if (productNume in cart){
+//     cart[productNume] += amount
+// }
+// cart[productNume] = (amount)
+// return cart
+// }
+
+
+// function swapKeysAndValues(obj){
+// let newObj = {};
+// for (const key in obj){
+//    newObj[obj[key]] = key
+// }
+// return newObj
+// }
+
+// function filterStrings(arr, minLength){
+//     let filter = arr.filter(item => item.length >= minLength)
+//     return filter
+   
+// }
+ 
+
+// function  delayMessage(message, delayMs, callback){
+//    setInterval(() => {
+//     console.log(`${message}`)
+//     callback();
+//    }, delayMs);
+// }
+
